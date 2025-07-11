@@ -1,0 +1,63 @@
+# =====================================
+# Gitignore for C++ / CMake / Qt / VSCode
+# =====================================
+
+# Build directories
+build/
+cmake-build-*/
+out-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+Testing/
+CMakePresets.json
+
+# Qt Creator files
+*.pro.user*
+*.qmake.stash
+Makefile.Debug
+Makefile.Release
+
+# Qt Meta-Object Compiler outputs
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Object and binary files
+*.o
+*.obj
+*.lo
+*.la
+*.lai
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+
+# Static libraries
+*.a
+*.lib
+
+# VS Code workspace settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Backup files
+*~
+*.swp
+*.swo
